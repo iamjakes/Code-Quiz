@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz!</title>
+</head>
+
+<body>
+    <!-- main outer div-->
+    <div class="outer-container">
+
+
+        <!-- top bar section-->
+        <div class="top-bar">
+            <a id= "score" href="hs.html">View Highscores</a>
+            <p id = "timer"> Time: 60s</p>
+        </div>
+       
+
+        <!-- inner container -->
+        <div class="inner-container">
+
+            <!-- main header/quiz intro-->
+            <header class="quiz-intro">
+                <h1>Airplane Quiz!!!</h1>
+                <p>To start the quiz press Start!</p>
+                
+                <button class="start-button">Start!</button>
+                </a>
+            </header>
+            <div class="quiz-main hide">
+                <h1 class="question-text"></h1>
+                <div class="button-box"></div>
+                
+            </div>
+            
+           
+    
+        </div>
+        
+
+        <!-- view high scores -->
+         <section id="highscore-section" class="hide">
+            <div class="row">
+                <div id="high-score" class="col-md-12">
+                    <h2>All done!</h2>
+                    <h3>Your final score is <span id="final-score">0</span></h3>
+                    <label for="initials-area">Enter initials:</label>
+                    <input type="text" name="initials-area" maxlength="4" id="initials">
+                    <button id="submit-button" type="submit">Submit</button>
+                </div>
+            </div>
+
+
+    </div>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+
+
+
+</html> 

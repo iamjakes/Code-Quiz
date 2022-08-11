@@ -1,0 +1,85 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.inner-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.quiz-intro {
+    margin-bottom: 100px;
+    
+}
+
+.quiz-intro h1 {
+    font-size: 40px;
+
+}
+
+.quiz-intro button {
+    font-size: 25px;
+    width: 50%;
+    
+}
+
+
+.outer-container {
+    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.top-bar {
+    padding: 10px;
+}
+
+
+.top-bar a{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.top-bar p {
+    float: right;
+    font-size: 25px;
+
+
+}
+
+
+.inner-container {
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-container p {
+  font-size: 20px;  
+}
+
+
